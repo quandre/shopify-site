@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,MAAM;CACf;;AAED,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,MAAM;CAChB",
+    "sources": [
+        "ShowLayout.scss"
+    ],
+    "names": [],
+    "file": "ShowLayout.css"
+}

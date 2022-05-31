@@ -1,34 +1,38 @@
 export default function Header1(){
   return(
     <header className="header header1">
-      <div className="header1__collections-nav">
-        <a href="/link" className="header1__collection-link">Link top <i className="fas fa-chevron-down"></i>
+      <ul className="header1__collections-nav">
+        <li className="header1__collection-link">
+          <a href="/link" >Link<i className="fas fa-chevron-down"></i></a>
           <ul className="collection-link__sub-links">
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
-        </a>
+        </li>
+        
         <a href="/link" className="header1__collection-link">Link</a>
         <a href="/link" className="header1__collection-link">Link</a>
-      </div>
+      </ul>
       <div className="header1__logo">
         <a href="/link">Company</a>
       </div>
-      <div className="header1__collections-nav">
+      <ul className="header1__collections-nav">
         <a href="/link" className="header1__collection-link">Link</a>
-        <a href="/link" className="header1__collection-link">Link <i className="fas fa-chevron-down"></i>
+        <li className="header1__collection-link">
+          <a href="/link" >Link<i className="fas fa-chevron-down"></i></a>
           <ul className="collection-link__sub-links">
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
-          </ul></a>
+          </ul>
+        </li>
         <a href="/link" className="header1__collection-link">Link</a>
         <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
         <a href="/cart"><i className="fas fa-user"></i></a>
-      </div>
+      </ul>
       
     </header>
   )
