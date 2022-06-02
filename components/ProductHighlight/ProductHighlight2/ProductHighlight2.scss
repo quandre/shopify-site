@@ -1,4 +1,4 @@
-.ProductHighlight1 {
+.ProductHighlight2 {
   width: 100%;
   padding: 100px 0;
   background-color: rgba(211, 245, 236, 0.5);
@@ -35,18 +35,18 @@
     width: 100%;
     text-align: right;
 
-    .ProductHighlight1__text-title {
+    .ProductHighlight2__text-title {
       font-size: 3rem;
       font-weight: 300;
     }
 
-    .ProductHighlight1__text-price {
+    .ProductHighlight2__text-price {
       display: block;
       margin-bottom: 20px;
       font-size: 1.7rem;
     }
 
-    .ProductHighlight1__text-btn {
+    .ProductHighlight2__text-btn {
       font-size: 16px;
       font-weight: 500;
       width: 80%;

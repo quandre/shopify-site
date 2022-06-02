@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import ShowLayout from '../components/layouts/ShowLayout'
-import ProductHighlight1 from '../components/ProductHighlight/ProductHighlight1'
+import ProductHighlight1 from '../components/ProductHighlight/ProductHighlight2/ProductHighlight2'
 
 export default function ProductHighlights() {
   return (<ShowLayout>
