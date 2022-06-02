@@ -1,0 +1,64 @@
+.hero3 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  &__item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s ease;
+  }
+
+  &__item {
+    .hero3__item-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:hover {
+      width: 200%;
+    }
+  }
+
+  .hero3__item .hero3__item-text {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: -5rem;
+    width: 100%;
+    height: 100%;
+    padding: 5em 5em 10em;
+    color: #fff;
+    background-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / 40%));
+    opacity: 0;
+    transition: all ease 0.5s 0.2s;
+  }
+
+  &__item-text:hover {
+    opacity: 1;
+    bottom: 0;
+  }
+
+  &__item-text h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  &__item-text a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+  }
+
+  &__item-text a span {
+    display: inline-block;
+    font-size: 2rem;
+    transition: all 2s ease;
+  }
+
+  &__item-text a:hover span {
+    transform: rotate(360deg);
+  }
+}

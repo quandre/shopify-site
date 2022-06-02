@@ -17,7 +17,6 @@ export default function Hero2() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
