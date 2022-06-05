@@ -1,4 +1,4 @@
-.ProductHighlight2 {
+.ProductHighlight3 {
   width: 100%;
   padding: 100px 0;
   background-color: rgba(211, 245, 236, 0.5);
@@ -29,27 +29,28 @@
   &__text-box {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-top: 30px;
+    padding: 0 10px 0 50px;
     width: 100%;
     text-align: right;
 
-    .ProductHighlight2__text-title {
-      font-size: 46px;
+    .ProductHighlight3__text-title {
+      font-size: 34px;
       font-weight: 300;
     }
 
-    .ProductHighlight2__text-price {
-      display: block;
-      margin-bottom: 20px;
-      font-size: 1.7rem;
+    .ProductHighlight3__sub-text {
+      font-size: 24px;
+      text-align: left;
+      font-weight: 300;
+      padding-bottom: 10px;
     }
 
-    .ProductHighlight2__text-btn {
+    .ProductHighlight3__text-btn {
       font-size: 16px;
       font-weight: 500;
-      width: 80%;
       color: #ffffff;
       background: #000000;
       border: none;

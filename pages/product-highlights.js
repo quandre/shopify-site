@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import ShowLayout from '../components/layouts/ShowLayout'
-import ProductHighlight1 from '../components/ProductHighlight/ProductHighlight2/ProductHighlight2'
+import ProductHighlight2 from '../components/ProductHighlight/ProductHighlight2/ProductHighlight2'
+import ProductHighlight3 from '../components/ProductHighlight/ProductHighlight3/ProductHighlight3'
 
 export default function ProductHighlights() {
   return (<ShowLayout>
@@ -11,7 +12,10 @@ export default function ProductHighlights() {
       </Head>
       <h1>All Product Highlights</h1>
       <div className="comp-space">
-        <ProductHighlight1  />
+        <ProductHighlight2  />
+      </div>
+      <div className="comp-space">
+        <ProductHighlight3  />
       </div>
     </ShowLayout>
   )
