@@ -2,6 +2,7 @@ import Head from 'next/head'
 import ShowLayout from '../components/layouts/ShowLayout'
 import BoxCollection1 from '../components/BoxCollection/BoxCollection1/BoxCollection1'
 import BoxCollection2 from '../components/BoxCollection/BoxCollection2/BoxCollection2'
+import BoxCollection3 from '../components/BoxCollection/BoxCollection3/BoxCollection3'
 export default function  BoxCollections() {
   return (<ShowLayout>
       <Head>
@@ -15,6 +16,9 @@ export default function  BoxCollections() {
       </div>
       <div className="comp-space">
         < BoxCollection2  />
+      </div>
+      <div className="comp-space">
+        < BoxCollection3  />
       </div>
     </ShowLayout>
   )

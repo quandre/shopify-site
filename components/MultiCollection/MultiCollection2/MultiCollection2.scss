@@ -1,0 +1,198 @@
+.multi-collection2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  &--aligned-left {
+    .multi-collection2__content-container {
+      justify-content: flex-start;
+      padding-left: 20px;
+    }
+  }
+  &--aligned-center {
+    .multi-collection2__content-container {
+      justify-content: center;
+    }
+  }
+  &--aligned-right {
+    .multi-collection2__content-container {
+      justify-content: flex-end;
+      padding-right: 20px;
+    }
+  }
+  &--cover {
+    img {
+      object-fit: cover;
+    }
+  }
+  &--contain {
+    img {
+      object-fit: contain;
+    }
+  }
+  &--img-left {
+    img {
+      object-position: left;
+    }
+  }
+  &--img-center {
+    img {
+      object-position: center;
+    }
+  }
+  &--img-right {
+    img {
+      object-position: right;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1030px;
+  }
+  .multi-collection2__top {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    background: #ebebeb;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .multi-collection2__content-container {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .multi-collection2__top-box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      line-height: 40px;
+      &-header {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+      &-text {
+        font-size: 30px;
+      }
+      button {
+        font-size: 20px;
+        color: #ffffff;
+        border: none;
+        background: transparent;
+        text-decoration: underline;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          color: rgba(75, 0, 130, 0.86);
+        }
+      }
+    }
+  }
+  .multi-collection2__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &-left {
+      display: flex;
+      position: relative;
+      width: 505px;
+      height: 400px;
+      background: #ebebeb;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .multi-collection2__content-container {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .multi-collection2__bottom-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        line-height: 40px;
+        &-header {
+          font-size: 36px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+        &-text {
+          font-size: 30px;
+        }
+        button {
+          font-size: 20px;
+          color: #ffffff;
+          border: none;
+          background: transparent;
+          text-decoration: underline;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: rgba(75, 0, 130, 0.86);
+          }
+        }
+      }
+    }
+    &-right {
+      position: relative;
+      width: 505px;
+      height: 400px;
+      background: #ebebeb;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .multi-collection2__content-container {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .multi-collection2__bottom-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        line-height: 40px;
+        &-header {
+          font-size: 36px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+        &-text {
+          font-size: 30px;
+        }
+        button {
+          font-size: 20px;
+          color: #ffffff;
+          border: none;
+          background: transparent;
+          text-decoration: underline;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: rgba(75, 0, 130, 0.86);
+          }
+        }
+      }
+    }
+  }
+}

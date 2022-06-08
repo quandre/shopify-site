@@ -1,5 +1,4 @@
-.banner2 {
-  padding: 50px 0;
+.box-collection3 {
   &__container {
     display: flex;
     flex-direction: row;
@@ -17,29 +16,29 @@
     line-height: 1.8;
     padding: 3em;
 
-    .banner2__item-img {
+    .box-collection3__item-img {
       object-fit: cover;
       width: 700px;
       height: 900px;
     }
-    .banner2__box {
+    .box-collection3__box {
       display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
       position: absolute;
       padding: 15px;
-      .banner2__header {
+      .box-collection3__header {
         font-size: 40px;
         font-weight: 500;
       }
 
-      .banner2__sub-text {
+      .box-collection3__sub-text {
         font-size: 50px;
         font-weight: 700;
       }
 
-      .banner2__button {
+      .box-collection3__button {
         margin-top: 20px;
         padding:20px;
         width: 200px;
