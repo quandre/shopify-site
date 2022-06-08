@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import ShowLayout from '../components/layouts/ShowLayout'
-import BoxCollection1 from '../components/BoxCollection/BoxCollection1/BoxCollection1'
-import BoxCollection2 from '../components/BoxCollection/BoxCollection2/BoxCollection2'
-export default function  BoxCollections() {
+import SquareCollection1 from '../components/SquareCollection/SquareCollection1/SquareCollection1'
+export default function  SquareCollections() {
   return (<ShowLayout>
       <Head>
         <title>Create Next App</title>
@@ -11,10 +10,7 @@ export default function  BoxCollections() {
       </Head>
       <h1>All  Box Collections</h1>
       <div className="comp-space">
-        < BoxCollection1  />
-      </div>
-      <div className="comp-space">
-        < BoxCollection2  />
+        < SquareCollection1  />
       </div>
     </ShowLayout>
   )
