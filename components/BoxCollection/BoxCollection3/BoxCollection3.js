@@ -8,9 +8,9 @@ export default function BoxCollection3() {
             className="box-collection3__item-img"
             alt=""
           />
-          <div class="box-collection3__box">
-            <p class="box-collection3__header">crazy deals</p>
-            <p class="box-collection3__sub-text">Buy 1 get 1 free</p>
+          <div className="box-collection3__box">
+            <p className="box-collection3__header">crazy deals</p>
+            <p className="box-collection3__sub-text">Buy 1 get 1 free</p>
             <button className="box-collection3__button">Learn More</button>
           </div>
         </div>
@@ -20,9 +20,9 @@ export default function BoxCollection3() {
             className="box-collection3__item-img"
             alt=""
           />
-          <div class="box-collection3__box">
-            <p class="box-collection3__header">crazy deals</p>
-            <p class="box-collection3__sub-text">Buy 1 get 1 free</p>
+          <div className="box-collection3__box">
+            <p className="box-collection3__header">crazy deals</p>
+            <p className="box-collection3__sub-text">Buy 1 get 1 free</p>
             <button className="box-collection3__button">Learn More</button>
           </div>
         </div>
