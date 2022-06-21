@@ -1,0 +1,33 @@
+.sale-box1 {
+  width: 100%;
+}
+
+.sale-box1 .overlay .percent-number{
+  color: white;
+  font-size: 20rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.sale-box1 .overlay .title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 20px;
+  margin-bottom: 1rem;
+}
+.sale-box1 .overlay a{
+  display: block;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 15px 60px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.sale-box1 .overlay a:hover{
+  color: black;
+  background: #ffff00;
+}

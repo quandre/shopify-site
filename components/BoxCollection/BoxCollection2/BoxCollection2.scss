@@ -17,6 +17,31 @@
       padding-right: 50px;
     }
   }
+  &--cover {
+    img {
+      object-fit: cover;
+    }
+  }
+  &--contain {
+    img {
+      object-fit: contain;
+    }
+  }
+  &--img-left {
+    img {
+      object-position: left;
+    }
+  }
+  &--img-center {
+    img {
+      object-position: center;
+    }
+  }
+  &--img-right {
+    img {
+      object-position: right;
+    }
+  }
   &__collection {
     display: flex;
     align-items: center;

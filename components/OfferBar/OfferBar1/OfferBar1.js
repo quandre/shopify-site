@@ -11,7 +11,7 @@ export default function Offer1() {
           <span className="offer1__text-box-header">Special Offer</span>
           <p className="offer1__text-box-text">Get The Perfect Gift</p>
         </div>
-        <button className="offer1__text-box-button">Shop Now</button>
+        <a className="offer1__text-box-button">Shop Now</a>
       </div>
     </div>
   );
