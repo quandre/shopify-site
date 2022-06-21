@@ -12,5 +12,5 @@ export default function VideoBox1() {
         </div>
       </div>
     </div>
-  )
+  );
 }
